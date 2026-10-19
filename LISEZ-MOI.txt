@@ -1,0 +1,26 @@
+LA TABLE DU COACH — installer l'appli sur ton PC
+=================================================
+
+Une appli web s'installe depuis une adresse en https. Le plus simple et gratuit : GitHub Pages (5 minutes, une seule fois).
+
+1. Crée un compte gratuit sur https://github.com (si tu n'en as pas).
+2. Clique sur « + » en haut à droite > « New repository ».
+   Nom : table-du-coach  · coche « Public » · clique « Create repository ».
+3. Sur la page du dépôt, clique « uploading an existing file ».
+   Glisse TOUT le contenu de ce dossier (index.html, manifest.webmanifest, sw.js et le dossier icons).
+   Clique « Commit changes ».
+4. Va dans « Settings » > « Pages ».
+   Source : « Deploy from a branch » · Branch : « main » · dossier « / (root) » · « Save ».
+5. Attends 1 à 2 minutes. Ton appli est en ligne à l'adresse :
+   https://TON-PSEUDO.github.io/table-du-coach/
+6. Ouvre cette adresse dans Chrome (ou Edge). Clique sur l'icône « Installer » à droite de la barre d'adresse
+   (ou sur le bouton doré « Installer l'appli » en bas à droite de la page).
+
+C'est fait : « La Table du Coach » apparaît dans le menu Démarrer et sur le bureau, avec son logo,
+s'ouvre dans sa propre fenêtre et fonctionne même sans internet.
+
+Bon à savoir
+- Ta progression (bilan, historique, parcours) est enregistrée dans l'appli installée. Elle repart de zéro
+  par rapport à la version ouverte dans Claude : ce sont deux espaces séparés.
+- Sur téléphone : ouvre la même adresse, puis « Ajouter à l'écran d'accueil ».
+- Pour mettre à jour l'appli plus tard : remplace index.html sur GitHub par la nouvelle version.
